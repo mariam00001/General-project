@@ -1,0 +1,88 @@
+footer {
+  background-color: #263238;
+  font-family: "Inter", sans-serif;
+  padding: 60px 0px;
+}
+.icon-footer {
+  width: 2rem;
+  height: 2rem;
+  background-color: #515b60;
+  border-radius: 50%;
+  color: #f5f7fa;
+}
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #f5f7fa;
+}
+.icon-footer i {
+  color: #ffffff;
+}
+
+.info-footer h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.info-li {
+  list-style: none;
+  padding-left: 0; 
+  margin: 0;
+}
+.group-footer , .main-footer{
+    display: flex;
+}
+.info-li li {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #f5f7fa;
+  text-align: start;
+  margin-bottom: 10px;
+}
+.input-fild {
+  position: relative;
+  width: 100%;
+}
+
+.input-fild input {
+  background-color: #515b60;
+  border: 1px solid #515b60;
+  padding-right: 130px; 
+  border-radius: 8px;
+  width: 100%;
+  color: #D9DBE1;
+}
+.margin{
+   margin-right: 100px; 
+}
+.send {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+.input-fild i{
+    color: #FFFFFF;
+}
+.input-fild input::placeholder{
+    color: #FFFFFF;
+}
+@media  (max-width:1200px){
+    .margin{
+   margin-right: 70px; 
+}
+}
+@media  (max-width:768px){
+    .group-footer , .main-footer{
+    display: block;
+}
+}

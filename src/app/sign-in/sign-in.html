@@ -1,0 +1,46 @@
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 px-5 sign">
+        <h2>Welcome Back 👋</h2>
+        <p class="mb-3">
+          Kindly fill in your details below to sign in your account
+        </p>
+        <form [formGroup]="signInForm" (ngSubmit)="onSubmit()">
+          <label>Username</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your username"
+            formControlName="username"
+          />
+
+          <label>Password</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Enter your password"
+            formControlName="password"
+          />
+
+          <button type="submit" class="btn-sign">Sign in</button>
+        </form>
+        <h5 class="mt-4 text-center">Don’t have an account? <a href="#"> Sign up</a></h5>
+      </div>
+      <div class="col-md-6 position-relative overflow-hidden bg-sign p-0">
+        <img
+          src="assets/9f97c1fd0ca7ebf585af58262d76b7e6b4058a59.jpg"
+          class="w-100 flipped"
+          alt="logo"
+        />
+        <div class="frame">
+          <h3>Lorem Ipsum is simply dummy</h3>
+          <p class="mt-4">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

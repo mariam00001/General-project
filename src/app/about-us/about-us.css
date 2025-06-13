@@ -1,0 +1,53 @@
+/* start about style */
+.about-box{
+    padding: 50px 30px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    border: 1px solid #CDCDCD;
+}
+.info h2{
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #242527;
+}
+.info p{
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #6A6A6A;
+width: 37%;
+}
+.info-icon h3{
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+}
+.info-icon p{
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: black;
+width: 70%;
+}
+.icon{
+    padding: 30px;
+    background-color: #D0EEFF;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    width: 5rem;
+    height: 5rem;
+}
+@media  (max-width:1200px){
+   .info-icon p{
+width: 100%;
+} 
+.info p{
+width: 100%;
+}
+}

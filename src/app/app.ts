@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected title = 'General-project';
+export class App implements OnInit {
+  protected title = 'General-project'
+  ngOnInit(): void {
+    AOS.init();
+  };
 }

@@ -1,0 +1,93 @@
+<section class="hero position-relative">
+  <nav class="navbar navbar-expand-lg bg-transparent pb-5">
+    <div class="container">
+      <a class="navbar-brand mt-2" href="#"
+        >General <span class="d-block pt-3">Project</span></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find a Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+
+          <li class="nav-item d-lg-none">
+            <button class="btn-login w-100 mb-2">Login</button>
+            <button class="btn-login change-color w-100">Sign up</button>
+          </li>
+        </ul>
+        <div class="d-none d-lg-flex ms-auto gap-2">
+          <button class="btn-login" [routerLink]="['/sign-in']">Login</button>
+          <button class="btn-login change-color">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container-fluid">
+      <div class="row overflow-hidden">
+        <div
+          class="col-lg-6 col-md-12 main-hero"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="300"
+        >
+          <h1>The standard Lorem Ipsum passage, used since the 1500s</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button class="btn-discover mt-5">Discover More</button>
+          <div class="d-flex justify-content-between rating">
+            <div class="">
+              <h2>300<span>+</span></h2>
+              <h3>Happy Client</h3>
+            </div>
+            <div class="">
+              <h2>900<span>+</span></h2>
+              <h3>Amazing Projects</h3>
+            </div>
+            <div class="">
+              <h2>20<span>+</span></h2>
+              <h3>Awards Winning</h3>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 img-hero p-0 col-md-12 overflow-hidden"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          data-aos-delay="300"
+        >
+          <img
+            src="assets/joel-filipe-RFDP7_80v5A-unsplash (1) 1.svg"
+            class="w-100"
+            alt="home"
+          />
+        </div>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,155 @@
+/* start nav style */
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #c4c4c4;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.navbar-brand {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #0a72ad;
+}
+/* button-nav */
+.btn-login {
+  padding: 10px 20px;
+  background-color: #f5f7fa;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a72ad;
+}
+.change-color {
+  background-color: #0a72ad;
+  color: #f5f7fa;
+}
+.main-hero {
+  margin-top: 50px;
+  padding-left: 120px;
+}
+.hero {
+  background-color: #2a2a2a;
+}
+.hero h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: white;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #c4c4c4;
+  width: 60%;
+}
+.btn-discover {
+  padding: 20px 40px;
+  background: linear-gradient(97.65deg, #60bbee 0.33%, #0a72ad 93.35%);
+  box-shadow: 0px 10px 15px 0px #01739933;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  border: 1px solid transparent;
+}
+.img-hero {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 0;
+  height: 100%;
+}
+.rating {
+  margin: 100px 0px 60px 0px;
+  width: 70%;
+}
+.rating h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+.rating h2 span {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2387c0;
+}
+.rating h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #c4c4c4;
+  width: 50%;
+}
+.navbar-toggler {
+  background-color: #2387c0;
+}
+
+@media (max-width: 1200px) {
+  .img-hero {
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .hero h1 {
+    width: 100%;
+  }
+  .hero p {
+    width: 100%;
+  }
+  .rating {
+    margin: 100px 0px 60px 0px;
+    width: 100%;
+  }
+  .main-hero {
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .img-hero {
+    right: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+  .main-hero {
+    margin-top: 10px;
+  }
+}
